@@ -103,7 +103,7 @@ def poisson(function):
   else:
     files[selecionado]["AVG_TIME_MISS"] += (End - Start)
 
-
+#simulção
 def usuarioSimulacao(listaUser, user, func):
 
   if user == 3:
@@ -261,7 +261,7 @@ def lru(arqv):
 
   return file_contents, 0
 
-
+#programa
 while True:
   option = int(input("-1: Simulação, 0: Sair, 1: Ler Arquivo: "))
 
