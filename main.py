@@ -107,8 +107,7 @@ def poisson(function):
 def usuarioSimulacao(listaUser, user, func):
 
   if user == 3:
-    return print("aaa")
-
+    return 0
   with open("output.txt", "a") as f:
     f.write(
       f"\n-----------------USUÁRIO: {listaUser[user]}-----------------\n\n-----------------Função:{func.__name__}-----------------\n\n-----------------30% 40%-----------------\n"
